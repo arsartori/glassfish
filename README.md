@@ -1,4 +1,4 @@
-# docker-glassfish
+# Glassfish
 Glassfish container images
 
 ## Build image

@@ -1,8 +1,11 @@
-# Glassfish
-Glassfish container images
+# Glassfish container images
 
-## Build image
-docker build -t glassfish .
+### Build image
+```
+docker build -t glassfish:<version> .
+```
 
-## Start image
-docker run -d --name glassfish -p 8080:8080 -p 4848:4848 glassfish
+### Start image
+```
+docker run -d --name glassfish -p 8080:8080 -p 4848:4848 glassfish:<version>
+```

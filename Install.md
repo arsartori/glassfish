@@ -1,8 +1,11 @@
 # Install Glassfish on Linux
 
 useradd -m -d /opt/glassfish6 -U -s /bin/false glassfish
+
 unzip /opt/glassfish.zip -d /opt
+
 chown -R glassfish: /opt/glassfish6
+
 nano/etc/systemd/system/glassfish.service
 
 [Unit]

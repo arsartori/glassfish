@@ -27,7 +27,7 @@ docker exec -it glassfish sh
 /opt/glassfish5/bin/asadmin --port 4848 enable-secure-admin
 ```
 
-# Restart GlassFish
+## Restart GlassFish
 ```
 /opt/glassfish5/bin/asadmin restart-domain
 ```

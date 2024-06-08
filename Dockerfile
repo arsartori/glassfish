@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:20.04
 LABEL maintainer="Andre Sartori <andre@aph.dev.br>"
 ARG VERSION
 ENV TZ=America/Sao_Paulo

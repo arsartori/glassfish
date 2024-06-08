@@ -14,7 +14,7 @@ docker run -d --name glassfish -p 8080:8080 -p 4848:4848 glassfish:5.1.0
 
 ### Connect to docker container
 ```
-docker exec -it glassfish sh
+docker exec -it glassfish bash
 ```
 
 ### Set admin password

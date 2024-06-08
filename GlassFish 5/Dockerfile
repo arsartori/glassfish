@@ -1,6 +1,5 @@
 FROM ubuntu:20.04
 LABEL maintainer="Andre Sartori <andre@aph.dev.br>"
-ARG VERSION
 ENV TZ=America/Sao_Paulo
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # Update and install

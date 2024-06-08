@@ -1,13 +1,13 @@
-# Glassfish 3.1.1.2 container images
+# Glassfish 3.1.2.2 container images
 
 ### Build image
 ```
-docker build -t glassfish:3.1.1.2 .
+docker build -t glassfish:3.1.2.2 .
 ```
 
 ### Start image
 ```
-docker run -d --name glassfish -p 8080:8080 -p 4848:4848 glassfish:3.1.1.2
+docker run -d --name glassfish -p 8080:8080 -p 4848:4848 glassfish:3.1.2.2
 ```
 
 ## Config Secure Admin Console (DAS)

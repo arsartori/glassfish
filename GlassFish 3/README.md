@@ -19,15 +19,15 @@ docker exec -it glassfish sh
 
 ### Set admin password
 ```
-/opt/glassfish5/bin/asadmin --port 4848 change-admin-password
+/opt/glassfish3/bin/asadmin --port 4848 change-admin-password
 ```
 
 ### Enable secure admin
 ```
-/opt/glassfish5/bin/asadmin --port 4848 enable-secure-admin
+/opt/glassfish3/bin/asadmin --port 4848 enable-secure-admin
 ```
 
 ## Restart GlassFish
 ```
-/opt/glassfish5/bin/asadmin restart-domain
+/opt/glassfish3/bin/asadmin restart-domain
 ```
